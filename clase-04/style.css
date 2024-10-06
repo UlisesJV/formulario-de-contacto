@@ -1,0 +1,30 @@
+* {
+    margin: 1000;
+}
+
+
+h1 {
+    color: blue;
+    font-size: .5em;
+}
+
+p {
+    color: green;
+}
+
+.fondo-aquiamarine{
+    background-color: aquamarine;
+}
+
+#segundo-parrafo{
+    background-color: blueviolet;
+    color: white;
+}
+
+.parrafo {
+    font-size: 3em;
+}
+
+.fuente-grande{
+    font-size: 3em;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Contacto</h1>
+    <form action="https://formsubmit.co/ulisesgonzalezug7464599@gmail.com" method="POST">
+        <input type="text" name="name" required placeholder="Nombre">
+        <input type="email" name="email" required placeholder="Email">
+        <button type="submit">Send</button>
+   </form>
+    <header>
+        <main>
+          <h1>Formularios</h1>
+           <form action="" method = "post">
+
+            <fieldset>
+             <div> 
+                <label for="nombre">Nombre: </label>
+                <input 
+                type="text" 
+                name = "nombre" 
+                id="nombre" 
+                placeholder="Escribir"
+                maxlength="100"
+                value=""
+                >
+             </div>
+                <label for="apellido">Apellido: </label>
+                <input 
+                type="text" 
+                name = "apellido" 
+                id="apellido" 
+                placeholder="Escribir"
+                maxlength="100"
+                required
+                >
+            </fieldset>
+
+            <fieldset>
+                <legend>Probando inputs</legend>
+                <input type="date">
+                <input type="email">
+                <input type="email">
+                <input type="color">
+                <input type="file">
+                <input type="password" size="8">
+                <input type="url" placeholder="https://...">
+                <input type="range" min="4" max="6">
+            </fieldset>
+
+            <div>
+                <input type="checkbox"><label for="">Uno</label>
+                <input type="checkbox"><label for="">Dos</label>
+                <input type="checkbox"><label for="">Tres</label>
+            </div>
+
+            <div>
+                <input type="radio" name="lenguaje" id="" value="html"><label for="">HTML</label>
+                <input type="radio" name="lenguaje" id="" value="css"><label for="">CSS</label>
+                <input type="radio" name="lenguaje" id="" value="js"><label for="">JS</label>
+            </div>
+
+            <div>
+                <label for="consulta">Consulta: </label>
+                <div>
+                    <textarea 
+                    name="consulta" 
+                    id="consulta"
+                    readonly>
+                    Escribir tu consulta</textarea>
+                </div>
+                
+            </div>
+
+            <div>
+                <label for="opcion" id="opcion">Opciones: </label>
+                <select name="opcion" id="opcion">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+            </div>
+
+            <button type="submit">Enviar</button>
+            <button type="reset">Borrar</button>
+    
+            
+           </form>
+        </main>
+    </header>
+    <footer>Coyright2024</footer>
+    
+</body>
+</html>

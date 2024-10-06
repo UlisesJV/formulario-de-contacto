@@ -1,0 +1,20 @@
+p {
+    color: red !important;
+    font-size: 2em !important;
+}
+
+body h1.parrafo{
+    color: green;
+}
+
+#primero {
+    color: blue;
+}
+
+.fondo-aqua{
+    background-color: black;
+}
+
+.color-snow{
+    color: snow;
+}
