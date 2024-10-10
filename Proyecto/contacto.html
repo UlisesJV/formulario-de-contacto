@@ -4,39 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="/img/books.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
     <title>Contacto</title>
 </head>
 <body>
     <header>
-        <h1>Libreria</h1>
-        <img src="/img/Libreria.png" alt="logo" widht="500" height="150">
+        <div class="portada">
+            <img id = "banner"src="/img/libreria.png" alt="ban" widht="500" height="150">
+        </div>
     </header>
-    <nav>
-        <ul>
-            <li>
-                <a href="index.html">Inicio</a>
-            </li>
-            <li>
-                <a href="productos.html">Productos</a>
-            </li>
-            <li><a href="contacto.html">Contacto</a></li>
-        </ul>
-    </nav>
-    <br>
+    <div class="menu">
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="productos.html">Productos</a>
+                </li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </div>
+    <br><br>
 
     <form action="https://formspree.io/f/{form_id}" method="post">
         <fieldset>
             <legend><b>Información de Contacto</b></legend>
             <br>
             <label for="nombre">Tu nombre</label>
-            <input name = "nombre" id = "nombre" type="text" size="23">
+            <input class="info" name = "nombre" id = "nombre" type="text" size="23">
             <br><br>
             <label for="email">Tu Email</label>
-            <input name="Email" id="email" type="email" size="25">
+            <input class="info" name="Email" id="email" type="email" size="25">
            
            <br><br>
            <label for="mensaje">Mensaje</label>
-           <textarea name="mensaje" id="mensaje" rows="8" cols="40">
+           <textarea class="info" name="mensaje" id="mensaje" rows="8" cols="40">
            </textarea>
            <br><br>
           <button type="submit">Submit</button>
