@@ -1,0 +1,43 @@
+/* "Ctrl + }" para comentar rapido */
+p{
+    color: red;
+    margin-bottom: 3%;
+}
+
+/*#parrafo-uno{
+    color: green;
+}*/
+
+/*.parrafos{
+    color: blue;
+}*/
+
+#titulo{
+    width: 50vw;
+    background-color: aquamarine;
+    border: solid;
+    border-color: green;
+    border-bottom: dotted;
+    border-radius: 5%;
+    padding: 1em;
+    text-align: center;
+}
+
+#subtitulo{
+    width: 30%;
+    background-color: red;
+    overflow: hidden !important;
+}
+
+h1,h2,p{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*section > p{
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+}*/
+
+h2 + p{
+    color: blue;
+}
